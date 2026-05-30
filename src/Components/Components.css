@@ -1,0 +1,143 @@
+/* HERO SECTION LINKS */
+.explore-btn,
+.contact-btn {
+  width: 160.5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 6px;
+  color: #fff;
+  transition:
+    background-color 0.3s,
+    border-color 0.3s;
+}
+
+.explore-btn {
+  background-color: #164baf;
+  border: none;
+}
+
+.explore-btn:hover {
+  background-color: #0f3a8c;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.contact-btn:hover {
+  background-color: #fff;
+  color: #051540;
+}
+
+/* FORM SECTION INPUTS  */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.required-asterisk {
+  color: red;
+  margin-left: 4px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 18px 12px;
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.input-group input::placeholder {
+  color: #616161;
+}
+
+.input-group textarea::placeholder {
+  color: #616161;
+}
+
+.input-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 18px 12px;
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.3s;
+  height: 48px;
+  min-height: 53px;
+  resize: vertical;
+}
+
+/* SUBMIT BUTTON  */
+.submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  background-color: #164baf;
+  color: #fff;
+  border: none;
+  padding: 1.5% 10%;
+  margin-top: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.submit-button .arrow-icon {
+  width: 8px;
+  height: 12px;
+}
+
+.submit-button:hover {
+  background-color: #0f3a8c;
+}
+
+@media (max-width: 600px) {
+  .explore-btn,
+  .contact-btn {
+    width: 160px;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .input-group textarea {
+    height: 161px;
+    padding: 16px 10px;
+    font-size: 16px;
+  }
+  .submit-button {
+    width: 100%;
+    padding: 5% 10%;
+  }
+
+  .submit-button:hover,
+  .submit-button:focus-visible,
+  .submit-button:active {
+    background-color: #0f3a8c;
+  }
+}
