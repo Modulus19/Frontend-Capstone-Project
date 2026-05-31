@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./Layouts/Header";
 import Hero from "./Layouts/Hero";
 import Video from "./Layouts/Video";
